@@ -10,3 +10,4 @@ with open('password.txt', 'a') as f:  # эффективная работа с �
         password = ''.join(random.choice(chars) for _ in range(length))
         print(password)
         f.write(password + '\n')
+        
